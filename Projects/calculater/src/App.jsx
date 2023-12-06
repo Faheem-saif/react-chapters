@@ -10,12 +10,16 @@ function App() {
 
 
   return (
+    <>
+    <div> <CalHead/></div>
+   
     <div className={styles.calcontainer}>
-    <CalHead />
+  
     <CalOutput/>
     <CalButton/>
 
     </div>
+    </>
   )
 }
 
