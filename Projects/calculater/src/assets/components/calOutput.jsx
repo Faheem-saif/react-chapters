@@ -1,9 +1,9 @@
 import styles from "./calOutput.module.css"
 
-export default function CalOutput() {
+export default function CalOutput({displayValue}) {
   return (
-    <div className={styles.output}>
-      <input  className type={styles.display} placeholder="Your out put will be here" readOnly/>
+    <div >
+      <input  className={styles.display}  value={displayValue} readOnly/>
     </div>
   )
 }
