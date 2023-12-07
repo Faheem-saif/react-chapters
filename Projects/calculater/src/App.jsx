@@ -26,10 +26,10 @@ function App() {
 
   return (
     <>
-    <div> <CalHead/></div>
+    
    
     <div className={styles.calcontainer}>
-  
+    <div> <CalHead/></div>
     <CalOutput  displayValue={calVal}/>
     <CalButton onButtonClick={onButtonClick } />
 
