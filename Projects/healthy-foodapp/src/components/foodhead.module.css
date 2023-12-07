@@ -1,0 +1,12 @@
+.foodhead{
+
+    margin: 10px;
+    font-weight: 700;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #040e12;
+    background-color: rgba(10, 162, 204, 0.565);
+    border-radius: 40px;
+}
