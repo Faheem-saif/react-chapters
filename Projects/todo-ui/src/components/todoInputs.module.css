@@ -1,0 +1,14 @@
+.inputt{
+    width: 100%;
+    border-radius: 4px;
+    padding: 5px;
+    border-color: rgb(218, 14, 225);
+  }
+  .kgrow{
+    margin: 25px;
+    
+    }
+    .kgbutton{
+        margin: 0px;
+        min-width: 80px;
+      }

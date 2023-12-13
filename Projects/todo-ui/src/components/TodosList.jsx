@@ -1,6 +1,20 @@
 
-
+// import { useState } from "react";
+import styles from "./todolist.module.css"
 export default function TodosList() {
+// const initialTodovalues = [{
+//    name:"Muhammad Faheem",
+//    date:12/10/23
+
+// },{
+
+
+// }
+
+
+// ]
+// const [todoItem,setTodoItem]= useState(initialTodovalues);
+
 
     var name1 = "Faheem";
     var name2 = "Sami";
@@ -10,7 +24,7 @@ export default function TodosList() {
   <div>
       <div className="container ">
   
-    <div className="row kg-row">
+    <div className={`row  ${styles.kgrow}`}>
     <div className="col-6">
    {name1}
     </div>
@@ -18,10 +32,10 @@ export default function TodosList() {
    {date}
     </div>
     <div className="col-2">
-    <button type="button" className="btn btn-danger kg-button">Success</button>
+    <button type="button" className={`btn btn-danger ${styles.kgbutton}`}>Delete</button>
     </div>
   </div>
-  <div className="row kg-row">
+  <div  className={`row    ${styles.kgrow}`}>
     <div className="col-6">
    {name2}
     </div>
@@ -29,7 +43,7 @@ export default function TodosList() {
    {date}
     </div>
     <div className="col-2">
-    <button type="button" className="btn btn-danger kg-button">Success</button>
+    <button type="button" className={`btn btn-danger ${styles.kgbutton}`}>Delete</button>
     </div>
   </div>
 </div>
