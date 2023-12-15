@@ -26,7 +26,7 @@ export default function TodoInput({onNewitem}) {
     
     <div>
     
-    <div className="container text-center">
+    <div className={`container text-center ${styles.incontain}`}>
   
   <div className={`row ${styles.kgrow}  `}>
     <div className="col-6">

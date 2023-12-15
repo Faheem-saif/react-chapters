@@ -3,8 +3,8 @@ import styles from "./todoitem.module.css"
 export default function Todoitem({todoName,dueDate,ondeleteclick}) {
 
   return (
-    <div>
-        <div className={`row  ${styles.kgrow}`}>
+    <div >
+        <div className={`row  ${styles.kgrow} ${styles.todocontain}`}>
     <div className="col-6">
   {todoName}
     </div>

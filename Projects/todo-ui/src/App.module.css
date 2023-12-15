@@ -17,7 +17,7 @@ input{
 
 .todocontainer{
   margin: 10px;
-  border: 4px solid rgb(51, 153, 136);
+  border: 4px solid #872341;
   border-radius: 30px;
-  background-color: rgb(194, 202, 149);
+  background-color: #22092C;
 }

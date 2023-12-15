@@ -55,7 +55,7 @@ setTodoItem(newtodoslist);
       <TotdoHeading/>
       <TodoInput  onNewitem={handleNewitem} />
       <div className={styles.itemcontainer}>
-      <TodosList deletetodo={handleDeletebutton} key="todo" todoitems= {todoItem} />
+      <TodosList  deletetodo={handleDeletebutton} key="todo" todoitems= {todoItem} />
       </div>
       
     </div>

@@ -1,6 +1,7 @@
 
 // import { useState } from "react";
 import Todoitem from "./Todoitem"
+import styles from "./todolist.module.css"
 
 export default function TodosList({todoitems,deletetodo}) {
 
@@ -12,7 +13,7 @@ export default function TodosList({todoitems,deletetodo}) {
   <div>
       <div className="container ">
 
-        {todoitems.map(item => <Todoitem ondeleteclick={deletetodo} key={item.name} todoName={item.name}  dueDate={item.date}></Todoitem>)}
+        {todoitems.map(item => <Todoitem className={styles.todocon} ondeleteclick={deletetodo} key={item.name} todoName={item.name}  dueDate={item.date}></Todoitem>)}
    
     
 </div>

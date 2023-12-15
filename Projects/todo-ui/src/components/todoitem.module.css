@@ -5,3 +5,16 @@
     margin: 25px;
     
     }
+    .todocontain{
+     margin: 10px;
+     padding: 10px;
+     border: 3px solid ;
+     border-color: #F05941;
+     border-radius: 30px;
+      background-color: #016A70;
+      color: rgb(227, 217, 32);
+      font-weight: 900;
+      font-size: larger;
+     
+
+    }
