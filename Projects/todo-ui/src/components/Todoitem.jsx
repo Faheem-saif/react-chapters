@@ -1,6 +1,7 @@
 
 import styles from "./todoitem.module.css"
-export default function Todoitem({todoName,dueDate}) {
+export default function Todoitem({todoName,dueDate,ondeleteclick}) {
+
   return (
     <div>
         <div className={`row  ${styles.kgrow}`}>
@@ -11,7 +12,7 @@ export default function Todoitem({todoName,dueDate}) {
   {dueDate}
     </div>
     <div className="col-2">
-    <button type="button" className={`btn btn-danger ${styles.kgbutton}`}>Delete</button>
+    <button onClick={() => ondeleteclick(todoName)} type="button" className={`btn btn-danger ${styles.kgbutton}`}>Delete</button>
     </div>
   </div>
       
