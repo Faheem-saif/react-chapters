@@ -1,0 +1,12 @@
+.maincss{
+
+    text-align: center;
+    color: darkgoldenrod;
+    font-weight: bolder;
+    font-size: larger;
+    margin: 20px;
+    background-color:whitesmoke;
+    padding: 20px;
+    border-radius: 30px;
+
+}

@@ -4,6 +4,7 @@ import TodoInput from './components/TodoInput'
 import TodosList from './components/TodosList'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import styles from "./app.module.css"
+import Welcomenote from './components/welcomenote'
 
 // import "./App.css"
 
@@ -54,7 +55,9 @@ setTodoItem(newtodoslist);
     <div className={styles.todocontainer}>
       <TotdoHeading/>
       <TodoInput  onNewitem={handleNewitem} />
+     
       <div className={styles.itemcontainer}>
+      {todoItem.length === 0 && <Welcomenote/> }
       <TodosList  deletetodo={handleDeletebutton} key="todo" todoitems= {todoItem} />
       </div>
       
